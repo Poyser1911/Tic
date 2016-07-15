@@ -1,0 +1,158 @@
+body {
+    background-color: #111;
+    font-family: 'Arial', sans-serif;
+    
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+.h {
+    display: none;
+}
+.header {
+    padding-top: 100px;
+    text-align: center;
+}
+.header2 {
+    font-size: 30px;
+    padding-top: 10px;
+    text-shadow: 0px 0px 15px #9ecaed;
+}
+#username {
+    width: 400px;
+    height: 25px;
+    padding: 17px 30px;
+    margin: 8px 0px;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/tag.png');
+    background-size: 22px 22px;
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+#username:focus,
+div.chatbox input:focus {
+    box-shadow: 0px 0px 10px #9ecaed;
+    opacity: 1;
+}
+div.chatbox input:not(:focus) {
+    opacity: 0.1;
+}
+input:focus::inputplaceholder {
+    color: transparent;
+}
+#connect,
+.qiklogin {
+    width: 250px;
+    height: 50px;
+    background-color: #30384b;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 45px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 1px solid #9ecaed;
+    border-radius: 5px;
+}
+.qiklogin {
+    margin: 10px 20px;
+}
+#connect:hover,
+.qiklogin:hover {
+    box-shadow: 0px 0px 45px #9ecaed;
+}
+.welcome,
+.globe {
+    text-shadow: 0px 0px 15px #9ecaed;
+    text-align: center;
+}
+.sqz {
+    width: 100px;
+    height: 100px;
+    font-family: 'Exo';
+    border: 2px solid #9ecaed;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+.canvases {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.sqz:hover {
+    background-color: #9ecaed;
+    box-shadow: 0px 0px 15px #9ecaed;
+}
+.sqz span {
+    font-size: 20px;
+}
+#req {
+    text-align: left;
+}
+li {
+    list-style: none;
+}
+ul.onlinelist li {
+    border-radius: 5px;
+    font-size: 25px;
+}
+ul.onlinelist {
+    padding-left: 15px;
+}
+ul.onlinelist li:hover {
+    text-shadow: 0px 0px 25px #9ecaed;
+    cursor: pointer;
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: #111;
+    overflow: auto;
+    text-align: left;
+}
+.sidebar2 {
+    height: 310px;
+    width: 40%;
+    bottom: 0;
+    z-index 1;
+    position: fixed;
+    background-color: #111;
+    overflow: auto;
+}
+.chatbox input {
+    width: 100%;
+    font-size: 20px;
+    border-style: none;
+    background-color: #111;
+    color: yellowgreen;
+    text-shadow: 0px 0px 20px;
+    text-align: left;
+    float: left;
+}
+.chatbox ul {
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 3px;
+    overflow: auto;
+    border: 1px solid #9ecaed;
+}
+.chatbox ul li {
+    text-align: left;
+}
+.globe {
+    text-align: center;
+}
+#status {
+    color: crimson;
+}
+#back {
+    color: #9ecaed;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+<center>
+    <div class="body">
+        <div class="usernamebox">
+            <div class="header2">Nickname</div>
+            <center>
+                <input id="username" type="text" autocomplete="off">
+                <br>
+                <button id="connect" onclick="login()">Enter</button>
+                <br>
+
+                <button class="qiklogin" username="Poyser">TestLogin1</button>
+                <button class="qiklogin" username="Pawpaw">TestLogin2</button>
+                <script type="text/javascript">
+                    $('.qiklogin').click(function() {
+                        $('#username').val($(this).attr('username'));
+                        login();
+                    })
+
+                </script>
+            </center>
+        </div>
+    </div>
+</center>
+<script src="/client/js/script1.js" type="text/javascript"></script>
